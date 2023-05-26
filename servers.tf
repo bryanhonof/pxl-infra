@@ -4,7 +4,7 @@ locals {
     # NOTE: It's possible to enter the name of your team, instead of your own.
     # Example:
 
-    bla = {
+    team16 = {
       ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFel+5hs1xAtw9AryNayPa2nj5q3uZq7NVs+PU/BvgEl onlyg@MSI-Katana" ]
     }
 
