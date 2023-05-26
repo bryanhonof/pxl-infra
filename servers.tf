@@ -19,7 +19,7 @@ locals {
     }
 
     team10 = {
-	sshkeys=[ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFTDtHUMHWc8rkQkp3WeMnrlZKEyFC3EvJtKPhjfj+fk robinschepers@Robins-MacBook-Pro-8.local]
+	ssh_keys=["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFTDtHUMHWc8rkQkp3WeMnrlZKEyFC3EvJtKPhjfj+fk robinschepers@Robins-MacBook-Pro-8.local"]
     }
 
     group11 = {
