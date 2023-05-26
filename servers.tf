@@ -18,6 +18,10 @@ locals {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILO0JUzYFZw3BGSNSwWbcm2W0yi/UdosTr1/70ji6E3R azuread\\patrickkenis@DESKTOP-873OUQA"]
     }
 
+    team10 = {
+	sshkeys=[ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFTDtHUMHWc8rkQkp3WeMnrlZKEyFC3EvJtKPhjfj+fk robinschepers@Robins-MacBook-Pro-8.local]
+    }
+
     group11 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJwIhKqo5FscNIPvtgKYZDCQYvWRmke1ezipl0IYTjK/ 12200725@5CG21505JN",
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIHkB6VO39oyFwiQqZ88GwV11LBheK2ndJ1tKl9rByrE quintenmathijs@MacBook-Air-van-Quinten.local",
