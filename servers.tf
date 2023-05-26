@@ -4,7 +4,12 @@ locals {
     # NOTE: It's possible to enter the name of your team, instead of your own.
     # Example:
     #
-    team8 = {
+
+    bla = {
+      ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFel+5hs1xAtw9AryNayPa2nj5q3uZq7NVs+PU/BvgEl onlyg@MSI-Katana" ]
+    }
+
+    team16 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHTJ+5h4G7ykWeM45wOAQJKC4Yv2s9gCG42Rdpf3y8v/ your_email@example.com", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEn9SMHqvBfZKlGXWqK+RsFmj0A/rjNV5MYFgqkek/sz felix@Legion_Felix"]
     }
     group11 = {
