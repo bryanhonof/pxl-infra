@@ -5,7 +5,7 @@ locals {
     # Example:
     #
     team16 = {
-      ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFel+5hs1xAtw9AryNayPa2nj5q3uZq7NVs+PU/BvgEl onlyg@MSI-Katana" ]
+      ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEzP9TCeapVQiX94sYfOAOaikH/yPyHcimDQwd0hFhxj onlyg@MSI-Katana", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFvpWIIS3chmqXopI7B/zieC7uHEYuBXDoOQN9HltrNB mauro@MSI" ]
     }
     team1 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL3qsSbrUxgzZJIVRr5LTNQhEyvyhScahfeuEm3LKQbw kobed@Beta", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBohO6ZHavw3wg0sMRQ+Lsx9zcEs4YzLLbutYlZ0730b thoma@Thomas-laptop"]
@@ -13,11 +13,11 @@ locals {
     team8 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHTJ+5h4G7ykWeM45wOAQJKC4Yv2s9gCG42Rdpf3y8v/ your_email@example.com", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEn9SMHqvBfZKlGXWqK+RsFmj0A/rjNV5MYFgqkek/sz felix@Legion_Felix"]
     }
-	
+
     team9 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILO0JUzYFZw3BGSNSwWbcm2W0yi/UdosTr1/70ji6E3R azuread\\patrickkenis@DESKTOP-873OUQA"]
     }
-	
+
     group11 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJwIhKqo5FscNIPvtgKYZDCQYvWRmke1ezipl0IYTjK/ 12200725@5CG21505JN",
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIHkB6VO39oyFwiQqZ88GwV11LBheK2ndJ1tKl9rByrE quintenmathijs@MacBook-Air-van-Quinten.local",
