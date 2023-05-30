@@ -4,7 +4,7 @@ on:
     branches:
       - "trunk"
 jobs:
-  terraform_check:
+  terraform_validate:
     name: "Check is Terraform code is valid"
     runs-on: ubuntu-latest
     steps:
@@ -19,18 +19,35 @@ jobs:
         continue-on-error: true
       - name: "Initialise Terraform"
         id: init
-        run: terraform init
+        run: terraform init -backend=false
       - name: "Validate Terraform code"
         id: validate
         run: terraform validate -no-color
+  terraform_plan:
+    needs: [terraform_validate]
+    name: "Plan Terraform code"
+    runs-on: ubuntu-latest
+    env:
+      TF_PLUGIN_CACHE_DIR: "$GITHUB_WORKSPACE/.terraform.d/plugin-cache"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: "1.4.2"
+          cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
+      - name: "Initialise Terraform"
+        id: init
+        run: terraform init
       - name: "Generate Terraform plan"
         id: plan
         run: terraform plan -no-color
         continue-on-error: false
   terraform_apply:
-    needs: [terraform_check]
+    needs: [terraform_plan]
     name: "Apply Terraform code"
     runs-on: ubuntu-latest
+    env:
+      TF_PLUGIN_CACHE_DIR: "$GITHUB_WORKSPACE/.terraform.d/plugin-cache"
     steps:
       - uses: actions/checkout@v3
       - uses: hashicorp/setup-terraform@v2
