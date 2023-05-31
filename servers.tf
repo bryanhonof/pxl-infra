@@ -5,7 +5,7 @@ locals {
     # Example:
     #
     team16 = {
-      ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEzP9TCeapVQiX94sYfOAOaikH/yPyHcimDQwd0hFhxj onlyg@MSI-Katana", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFvpWIIS3chmqXopI7B/zieC7uHEYuBXDoOQN9HltrNB mauro@MSI" ]
+      ssh_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEzP9TCeapVQiX94sYfOAOaikH/yPyHcimDQwd0hFhxj onlyg@MSI-Katana", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFvpWIIS3chmqXopI7B/zieC7uHEYuBXDoOQN9HltrNB mauro@MSI", "SHA256:u4sELTjRf1mobNykwnBe31GajB+WHJIORFzrrMjlocs joosv@Ferry" ]
     }
     team1 = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL3qsSbrUxgzZJIVRr5LTNQhEyvyhScahfeuEm3LKQbw kobed@Beta", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBohO6ZHavw3wg0sMRQ+Lsx9zcEs4YzLLbutYlZ0730b thoma@Thomas-laptop"]
