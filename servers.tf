@@ -37,7 +37,7 @@ locals {
     BramTruyens = {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDasSs+aNMEYu5hR9ALtYdE5rA0vXqgFuNn0jnuXXtqg bramt@LAPTOP-VDFCIIQ9"
       ]
-    }
+    } 
     teamJnM = { 
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHKcPhLMq6tXObUVTKWh0jIfosPFqyAhvsgDNQs3gNQH jaspe@MSI", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEoqsX6vl6LKlNUmeHFJc6geEhe3K0RVO+nTrRWylpT6 jonas@DESKTOP-HD1COPB"]
     }
