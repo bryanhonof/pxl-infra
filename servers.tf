@@ -43,7 +43,7 @@ locals {
     }
     bryan = { ssh_keys = [] }
     demo  = { ssh_keys = [] } 
-  }
+  } 
 }
 
 module "student_servers" {
