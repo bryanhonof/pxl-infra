@@ -42,7 +42,7 @@ locals {
       ssh_keys = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHKcPhLMq6tXObUVTKWh0jIfosPFqyAhvsgDNQs3gNQH jaspe@MSI", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEoqsX6vl6LKlNUmeHFJc6geEhe3K0RVO+nTrRWylpT6 jonas@DESKTOP-HD1COPB"]
     }
     bryan = { ssh_keys = [] }
-    demo  = { ssh_keys = [] }
+    demo  = { ssh_keys = [] } 
   }
 }
 
