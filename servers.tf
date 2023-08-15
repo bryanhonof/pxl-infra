@@ -11,6 +11,7 @@ locals {
      Thibe = {
       ssh_keys =[
       "SHA256:fv6PYIMthlswa0GPJebDQFyP+dZvLUwAMxEOQDnRpqg gebruiker@DESKTOP-BEAVFHB"
+      
       ]
     }
   }
