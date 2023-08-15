@@ -8,9 +8,9 @@ locals {
     #     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIuAcOS6oFayeYpmbe8xDPGKJels0OWq0NzrZxWCLX7d"
     #   ]
     # }
-     Thibe = {
-      ssh_keys =[
-      "SHA256:fv6PYIMthlswa0GPJebDQFyP+dZvLUwAMxEOQDnRpqg gebruiker@DESKTOP-BEAVFHB"      
+    Thibe = {
+      ssh_keys = [
+        "SHA256:fv6PYIMthlswa0GPJebDQFyP+dZvLUwAMxEOQDnRpqg gebruiker@DESKTOP-BEAVFHB"
       ]
     }
   }
