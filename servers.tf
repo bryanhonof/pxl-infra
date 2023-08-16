@@ -13,6 +13,11 @@ locals {
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIT7FdCTfgPdsQnBm/hRZtNFaaPCV7lPfse3EOn1lxsW oliwier@DESKTOP-DPCILQ3",
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGf+kcf1x/2nxnmIlbeqO5wqdCFN9tK/FZqzFUM1ginQ oliwi@olilaptop"
       ]
+    Thibe = {
+      ssh_key = [
+        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA33dcN4/swspJZ9OPYLNWC2VMYu9J69hbod47kbnQ62 gebruiker@DESKTOP-BEAVFHB
+      ]
+    }
     }
   }
 }
