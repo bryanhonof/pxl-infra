@@ -8,10 +8,10 @@ locals {
     #     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIuAcOS6oFayeYpmbe8xDPGKJels0OWq0NzrZxWCLX7d"
     #   ]
     # }
-    Oliwier = {
+    xander = {
       ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIT7FdCTfgPdsQnBm/hRZtNFaaPCV7lPfse3EOn1lxsW oliwier@DESKTOP-DPCILQ3",
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGf+kcf1x/2nxnmIlbeqO5wqdCFN9tK/FZqzFUM1ginQ oliwi@olilaptop"
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIALj15sjvwES0JDXVABoAo+h66gv+00TBMVkEfpy7B74 xande@Xander"
+        
       ]
     }
   }
