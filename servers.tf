@@ -15,7 +15,7 @@ locals {
       ]
     Thibe = {
       ssh_key = [
-        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA33dcN4/swspJZ9OPYLNWC2VMYu9J69hbod47kbnQ62 gebruiker@DESKTOP-BEAVFHB
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA33dcN4/swspJZ9OPYLNWC2VMYu9J69hbod47kbnQ62 gebruiker@DESKTOP-BEAVFHB"
       ]
     }
     }
