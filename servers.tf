@@ -42,7 +42,7 @@ locals {
     }
     Bjarni = {
       ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMDu2VdroRSdGoDyVhGW626ePZaLQCwa7m1khXq4odfI 12302152@student.pxl.be",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWpFoGZK7MC+nw5fW9Q5yJzix4Hkl32QG79gG+w531XUdb3OfR4uu6ew+pZ2z47Kf7A4PGR+PrMim8FKW4BVZUyn9Gcg3Fc0/vy5viIeNoXDwZlHbp8YkgPbzyQ609Soez5GpqrcUzhAVlK2YzYbm+a7gsnMzbDToDYSRZt/WWKKZukT08UHKjr0/fBl2KYAonYpL2jmjpCaZ5mmBVTWAy21P8ou/MuyAYtVKTo6wrEYNRIPngy5kMld5i44+FXqwmN4xnK/qGvNlQy/n9S4y2bIKxboQxG6xEIP+ENU43QndpclqRn8pGaBECSh/ieLNKTyxOftzp082mhyUhsRd15U5SdwGRcgwRJRwIhOtyOjHHWVF++E0K6OoUxbUAM2QcgZPj/3BMmJk85Uj/aWkYKBfhVp0m73mwuQ9UM2SdtbgEd7MisKq6AAeasf4NIUk= konel@Layso",
       ]
     }
   }
