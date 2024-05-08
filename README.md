@@ -10,6 +10,11 @@ servers = {
     "instance_ipv4_addr" = "49.13.215.102"
     "instance_ipv6_addr" = "2a01:4f8:c013:1bdb::1"
   }
+  "Runar" = {
+    "instance_fqdn" = "server-of-runar.pxl.bjth.xyz"
+    "instance_ipv4_addr" = "5.75.255.184"
+    "instance_ipv6_addr" = "2a01:4f8:c17:efec::1"
+  }
   "axel" = {
     "instance_fqdn" = "server-of-axel.pxl.bjth.xyz"
     "instance_ipv4_addr" = "167.235.195.70"
