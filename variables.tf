@@ -4,7 +4,7 @@ variable "hcloud_token" {
   sensitive   = true
 }
 
-variable "gandi_key" {
+variable "gandi_pat" {
   description = "The Gandi API key to use"
   type        = string
   sensitive   = true
