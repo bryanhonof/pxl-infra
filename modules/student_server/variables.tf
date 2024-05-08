@@ -7,13 +7,13 @@ variable "student_name" {
 variable "server_type" {
   description = "The type of server to launch on Hetzner cloud"
   type        = string
-  default     = "cx11"
+  default     = "cax11"
 }
 
 variable "image" {
   description = "The image to use to launch on Hetzner cloud"
   type        = string
-  default     = "fedora-38"
+  default     = "ubuntu-24.04"
 }
 
 variable "location" {
