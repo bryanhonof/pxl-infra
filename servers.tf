@@ -61,14 +61,14 @@ locals {
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIPBikgZA3bQmkp25kk2A9XKAWbdVro1DXVmng1p0+X5 12302622@student.pxl.be",
       ]
     }
-	Bowen = {
+    Bowen = {
       ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAl4DIqbqunk0BYKzYY18063yFdqVAlSPhBbrZ/l24Db bowen.liang@student.plx.be",
       ]
     }
-	Devlin = {
-		ssh_keys = [
-		"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINXXwwetHXIi76JQeo6H5emP0zIABhurDXyrtYLIVQn/ 12300703@student.pxl.be",
+    Devlin = {
+      ssh_keys = [
+	"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINXXwwetHXIi76JQeo6H5emP0zIABhurDXyrtYLIVQn/ 12300703@student.pxl.be",
 		]
 	  }
   }
