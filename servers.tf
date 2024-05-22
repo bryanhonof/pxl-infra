@@ -31,7 +31,7 @@ locals {
     }
     Runar = {
       ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKgm5n+eS/QiGrUHD6i2zFJRsfdEJtzhgJXLggQjuEz runar@runar"
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBrEgVBQ1AonoTM9rrZDXfByF+5CC/8kEt2Brh1n4Zag runar.jans@gmail.com"
       ]
     }
     Christophe = {
