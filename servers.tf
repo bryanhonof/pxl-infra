@@ -29,20 +29,20 @@ locals {
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILe8frS9W779nR/TVBTc1giVLt2bwfTYnfqMt7D2qozB 12300247@student.pxl.be",
       ]
     }
+
     Runar = {
       ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKgm5n+eS/QiGrUHD6i2zFJRsfdEJtzhgJXLggQjuEz runar@runar"
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBrEgVBQ1AonoTM9rrZDXfByF+5CC/8kEt2Brh1n4Zag runar.jans@gmail.com"
       ]
     }
     Christophe = {
       ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ/TzK2ORvoOQXWLWnQQcHoEuDY7PUlp051mwiaQpzeQ pandora@gmail.com",
-
       ]
     }
     Bjarni = {
       ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMDu2VdroRSdGoDyVhGW626ePZaLQCwa7m1khXq4odfI 12302152@student.pxl.be",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsAQIjO4fIU6vZqcnQn48a3lPkyxptJkw2cDCV+IrRaoVTW6CsJPd0QSG/YievuPtGjIDJHOv83dNhS+vPLClU3FanWsJ2yXyE7Anc8cTgSLFfovuczXFglZ87y2g/pEL24kwjKBleB244BhpGiZ4xwsF6O+rMfKaYE9+/tik/iQhVYIY+Xh0BXx2N8r6q7c2YKYFSn5zrt6CqVfk4GdUkZSS2+nWrkkCtKKCTqzQHeexGP4PSkndm5S8we4hUW5EB0tIOnNcmO5OwbDVjPCHXpgqOFxNYIF+JiT7XXMd2uIuwGDI/3fT6dKMZHPVezunl7ncsOFPV668ISQCQTiLS8Fp43+jfzZH3zrxRAr2AW6MC1yAn16rnO0+viQjWxXRW+aqzu6JhsGJrnzYq4hbElu08NyUhCarbiGxJo8MeZPU0n2wTm+5oIcbAx4pEb28g6g7IxeIEstj7bInFPa4VNDrQywJDVT0WMrIIs7SSl6l2998mOlXSB+tKB+iLG6c= bjarni heselmans@5CD322B28R",
       ]
     }
 <<<<<<< HEAD
@@ -73,7 +73,18 @@ locals {
     Devlin = {
       ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINXXwwetHXIi76JQeo6H5emP0zIABhurDXyrtYLIVQn/ 12300703@student.pxl.be",
+<<<<<<< HEAD
 >>>>>>> fd0ca114eac14b5519637e80a897d03075ff3e7b
+=======
+
+      ]
+    }
+    Kobe = {
+      ssh_keys = [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuqtM9bD/5x/5nerXXUZFgu78GJm4QCQiAdnDgHejM5fforqLQMQeQ2IM4gKRaa9qlewe4Ct7WbddRxLRzHvVMUrLNYhTAYG35UPb3B+6FCnmxAvvdRGicWOLXH7QZkZv9HfaLvnpVvMVOLZMGL1v7IzursX2POVGtfWYikmIqbUkw/CRIKH9cb55XPTIpnM7E/kRteXw5jpTNuDqpDMVywGOf5crgNyoSjQF+/ONGi3bwFe4vl/TjK2GwAu/j55hSDhFLH6lymsOIfD+NgIEI7tz9tcRAm1qBvcCTZROXOkPfQ4GMm58eJZTmBxpql+CKAKzFnDMKPdHSTvTREP/14UWDH6LpjD64T3GIY/0bwLaK13wt9izbj4QO5+hGdvs/N1o7A4/uOlmrQOskv4J5gv7dMmlaWbhENKIKSBK5ooUcF3BL4QV1gyLANthFc5W1bs3RfvKsdeZKeEXsqz4m51jGx1SJjE7/7ifqSdvPmdK+PFecYwXAu9jHpCiY36s= kobej@LAPTOP-BSI76E8Q",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvAWcYBd6sb/8gDSGBk25omCKWjiUg9Zr4AmfNS4JIRidSThNl5yWBLW2ujd2KWhn2wyZFxZcXFNhYuIpC/bCy2zluguAJ0Xg5qesVjmPXlHS+lwfiQv80wpD6wDbkrsp/kI8XHSN8Zc5fVsqtyvwVBeEzVJligGmTY5L7/L0SdBZGSESR//Aydy8cMNm2CUtFsTlpsYnlo6YvE26IPJM0fMMsw5hHO3cdz5gZJJYCk1fZX6/y2A8hXQH6oZIA0ZuILxX9VJH8+gFs8mJyy6+GsfuLEQSt/2Keu344g4t97TwnCNx8Osk5RPjVHdCZwMiml7dPtM4ZPsdbDeJlUs8iYrqZxVq14UeRjJWbaSuY06gqlVejyQskzk5/0Bw5tpDjjksTYI9A9gq+buvi4gWwKdOhJpbjGMaODC2yYgSEuhdh2OKCxaeyMpGAlVpwNxByEWr2kIKq2sCP6/3xheoOW2DRMblN4UXliW+ruBmO5N3qyBRpPYwDF5gcFo/9N40= brenden@DESKTOP-AG02CM0",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCm1aoBL0IoBeCLbTMmwwN9FwiCNCLE6MyYKULwKzKNnoSCtFtAdgQnaTgkR7NG4o2S/UYVejOpL9hZf+QJvx6mYeaFbM2KPCp/Q3ulGoW3FWDDLqQgLOw2+5g1Sxwf8gnpnpkQCUXXRW/npd/IuGWJg6YC7i2mEqITLAnbFDFmWSf3cVZ16y/sAfbkZsvznG4mBxZuIWC4wpnkR/gq70e//oH/NCdFWZ0kpvFUVCZDusnYQHOdFDwkjOE/FSiYvBLxQIRyHZ1g39y3Lgdt7dk2xsCJg/o+JcgOO+l5pTN/u4lvB9+8zKJ4G/y0hGOH1z5OdaJCnWsD1/r+Rtr075JmkUaCoRK8QOU17j2RPAHjjErAc9q+TQ0tyExeTHY0kN8XZ0Io+zrc5/GAj9opaZqKNDu83I6cn4SUEdUOWHq4Dcnqj9Iz2HQuCYYwnMBPhq/efiPyaZCyouHgLWXg5JT3b4FkeX4cN75gTvGlAG7dAQokupS2WIGfIDWWJnIo4eE= jop@Laptop-Jop",
+>>>>>>> a3de82d3bb909e07a15069cff3ca581c550c458a
       ]
     }
   }

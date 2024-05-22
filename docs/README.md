@@ -25,6 +25,11 @@ servers = {
     "instance_ipv4_addr" = "49.13.87.204"
     "instance_ipv6_addr" = "2a01:4f8:c012:ebd9::1"
   }
+  "Kobe" = {
+    "instance_fqdn" = "server-of-kobe.pxl.bjth.xyz"
+    "instance_ipv4_addr" = "49.13.123.1"
+    "instance_ipv6_addr" = "2a01:4f8:c17:c84::1"
+  }
   "Robert" = {
     "instance_fqdn" = "server-of-robert.pxl.bjth.xyz"
     "instance_ipv4_addr" = "49.13.215.102"
