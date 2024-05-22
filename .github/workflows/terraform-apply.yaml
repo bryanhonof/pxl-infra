@@ -86,9 +86,9 @@ jobs:
             echo '```'
             terraform output -no-color
             echo '```'
-          } > README.md
+          } > docs/README.md
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add README.md
-          git commit -am "chore(readme): update README with new IPv4 addresses"
+          git add docs/README.md
+          git commit -am "chore(readme): update README with latest Terraform output"
           git push
