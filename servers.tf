@@ -45,11 +45,6 @@ locals {
         "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsAQIjO4fIU6vZqcnQn48a3lPkyxptJkw2cDCV+IrRaoVTW6CsJPd0QSG/YievuPtGjIDJHOv83dNhS+vPLClU3FanWsJ2yXyE7Anc8cTgSLFfovuczXFglZ87y2g/pEL24kwjKBleB244BhpGiZ4xwsF6O+rMfKaYE9+/tik/iQhVYIY+Xh0BXx2N8r6q7c2YKYFSn5zrt6CqVfk4GdUkZSS2+nWrkkCtKKCTqzQHeexGP4PSkndm5S8we4hUW5EB0tIOnNcmO5OwbDVjPCHXpgqOFxNYIF+JiT7XXMd2uIuwGDI/3fT6dKMZHPVezunl7ncsOFPV668ISQCQTiLS8Fp43+jfzZH3zrxRAr2AW6MC1yAn16rnO0+viQjWxXRW+aqzu6JhsGJrnzYq4hbElu08NyUhCarbiGxJo8MeZPU0n2wTm+5oIcbAx4pEb28g6g7IxeIEstj7bInFPa4VNDrQywJDVT0WMrIIs7SSl6l2998mOlXSB+tKB+iLG6c= bjarni heselmans@5CD322B28R",
       ]
     }
-    Runar = {
-      ssh_keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKgm5n+eS/QiGrUHD6i2zFJRsfdEJtzhgJXLggQjuEz runar@runar"
-      ]
-    }
     yinnis = {
       ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOqrPVkvGWeMpVz4a/jyUiKhkOcMi7UjVaRjoTCSTB8A 12302157@student.pxl.be",
