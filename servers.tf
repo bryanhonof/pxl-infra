@@ -28,7 +28,7 @@ locals {
       ]
     }
     Bowen = {
-      aah_keys = [
+      ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZuoIwLhSLkChxOWJZqb+YpLMoE1ql0OHrLCh2fq14O bowen.liang@student.pxl.be"
       ]
     }  
